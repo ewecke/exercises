@@ -15,6 +15,6 @@ let profileDod = "5-04-1994";
 console.log(myVariable);
 console.log(firstName, lastName)
 //task 4
-console.log(profileName, profileNationality, profileJob, profileDob, profileDod) 
+console.log(profileName, profileNationality, profileJob, profileDob, profileDod)
 //task 5
-console.log(profileName +=" was a", profileNationality, profileJob +=" Born on", profileDob +=" and die on", profileDod) 
+console.log(profileName += " was a", profileNationality, profileJob += " Born on", profileDob += " and die on", profileDod)
