@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 //Q1
 let ticketPrice = 15;
@@ -9,7 +9,7 @@ console.log("//Q1 Tickets sold = " + ticketQuant);
 //Q2
 let silviaSalary = 500;
 let silviaYearIncome = silviaSalary * 52.143;
-console.log("//Q2 Sylvia's Year Income = " + silviaYearIncome);
+console.log("//Q2 Sylvia\'s Year Income = " + silviaYearIncome);
 
 //Q3
 let numberOne = 17;
@@ -22,7 +22,7 @@ let squarSide = 4.75;
 let squarePerimeter = squarSide * 4;
 console.log("//Q4 Square perimeter = " + squarePerimeter);
 
- 
+
 //Q5
 let baseOne = 5;
 let baseTwo = 6;
@@ -39,7 +39,7 @@ console.log("//Q6 Square Area = " + squareTowArea);
 let triagleSideOne = 5;
 let triagleSideTwo = 6;
 let triagleSideThree = 7;
-let triaguleArea = Math.sqrt(triagulePerimeter * (triagulePerimeter - triagleSideOne) * (triagulePerimeter - triagleSideTwo) * (triagulePerimeter - triagleSideThree) );
+let triaguleArea = Math.sqrt(triagulePerimeter * (triagulePerimeter - triagleSideOne) * (triagulePerimeter - triagleSideTwo) * (triagulePerimeter - triagleSideThree));
 console.log("//Q7 Triangle Area = " + triaguleArea);
 
 //Q8
@@ -49,7 +49,7 @@ console.log("//Q8 Cube Volume = " + cubeVolume);
 
 //Q9
 let billOne = 22.35;
-let billOneTip =(billOne / 100) * 10;
+let billOneTip = (billOne / 100) * 10;
 console.log("//Q9 - A - Bill = " + billOne + " Tip " + billOneTip);
 let billTwo = 26.67;
 let billTwoTip = (billTwo / 100) * 15;
@@ -71,7 +71,7 @@ let dayNine = 7;
 let dayTen = 4;
 let totalTimeWorked = dayOne + dayTwo + dayThree + dayFour + dayFive + daySix + daySeven + dayEight + dayNine + dayTen;
 let averageTime = totalTimeWorked / 10;
-console.log("//Q10 Noemy's average hours worked per day = " + averageTime);
+console.log("//Q10 Noemy\'s average hours worked per day = " + averageTime);
 
 
 //Q11
@@ -87,5 +87,5 @@ console.log("//Q11 Score on the sixth test = " + testSix + "cc");
 
 //Q12
 
-let minimumNeeds = ((((80 * 9) /100) - ((78 * 8) / 100)) * 100);
+let minimumNeeds = ((((80 * 9) / 100) - ((78 * 8) / 100)) * 100);
 console.log("//Q12 James needs a minimum of = " + minimumNeeds + "%");
