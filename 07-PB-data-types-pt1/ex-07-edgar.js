@@ -1,7 +1,7 @@
-"use strict";
+`use strict`;
 
 //Q1
-let noName = "paralelepipedo";
+let noName = `paralelepipedo`;
 console.log(noName);
 
 //Q2
@@ -26,12 +26,12 @@ let isMarried = false;
 console.log(`${name} is married: ${isMarried}`);
 
 //Q9
-let programmingLanguage = "JavaScript";
+let programmingLanguage = `JavaScript`;
 let isFun = true;
 console.log(`${programmingLanguage} is Fun: ${isFun}`);
 
 //Q10
-console.log(`${programmingLanguage[0]+programmingLanguage[4]}`);
+console.log(`${programmingLanguage[0]}${programmingLanguage[4]}`);
 
 //Q11
 console.log(`The length of the string is = ${programmingLanguage.length}`);
