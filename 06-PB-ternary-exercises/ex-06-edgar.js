@@ -14,8 +14,8 @@ console.log(age < 16 ? "serve butter beer" : "serve beer");
 
 //Q4
 let isStudent = true;
-console.log(isStudent = true ? "Ticket costs €5,00" : "Ticket costs €12,00");
+console.log(isStudent === true ? "Ticket costs €5,00" : "Ticket costs €12,00");
 
 //Q5
-let okMarie = true;
-console.log(okMarie = true ? "Let them eat cake" : "Oh, bother");
+let okMarie = "cake";
+console.log(okMarie === "cake" ? "Let them eat cake" : "Oh, bother");
