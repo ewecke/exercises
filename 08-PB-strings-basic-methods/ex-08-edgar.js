@@ -13,7 +13,7 @@ let taskFour = `JavaScript`;
 console.log(taskFour.substring(3, 6));
 //Q5 not working 
 let taskFive = `nice shoes`;
-console.log(taskFive.includes(`l`, `n`) ? `it does contains the letter l or n ` : `it does not contains the letter l or n `);
+console.log(taskFive.includes(`l` && `n`) ? `it does contains the letter l or n ` : `it does not contains the letter l or n `);
 //Q6
 let taskSix = `Bannanas`
 let taskSixB = `${taskSix[0]}${taskSix}${taskSix[0]}`;
