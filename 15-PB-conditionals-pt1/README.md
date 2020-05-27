@@ -1,4 +1,4 @@
-# Programming Basics: Conditionals
+ # Programming Basics: Conditionals
 
 These exercises are aimed at making you more comfortable with using conditionals as well as operators. Use "if" statements to complete the following exercises. Print your results to the console.
 
