@@ -5,7 +5,7 @@ let b = false;
 
 console.log( a && b ? `a AND b = true` : `a AND b = false`);
 console.log(a || b ? `a or b = true` : `a or b = false`);
-console.log(!a && !b ? `a not b = true` : `a not b = false`); // i'm not sure  
+console.log(!(a && b) ? `a not b = true` : `a not b = false`); // i'm not sure  
 
 //Q2
 let x = 11;
