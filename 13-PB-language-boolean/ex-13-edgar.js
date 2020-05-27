@@ -3,6 +3,7 @@
 console.log(3 == "3" ? true : false );//compare values of the variable and not the type.
 console.log(3 === "3" ? true : false );//compare values and type.
 // What would happen if we were to use `=`? we assign a value to the variable.
+//Which comparison operator should we generally use? Why? === is the better becouse it compare values and type 
 //Q2
 let a = true;
 console.log(!a ? true : false);
