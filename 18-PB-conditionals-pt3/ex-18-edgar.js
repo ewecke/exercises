@@ -29,6 +29,8 @@ let maryGame3 = 105;
 let maryAverage = (maryGame1 + maryGame2 + maryGame3) / 3;
 
 console.log(`Mary Average last three games = ${maryAverage}`);
+console.log(`Alleza Average last three games = ${allezaAverage}`);
+console.log(`Liz Average last three games = ${lizAverage}`);
 
 if (allezaAverage > lizAverage && allezaAverage > maryAverage) {
     console.log(`Alleza's team Average score Wins`);
@@ -37,5 +39,6 @@ if (allezaAverage > lizAverage && allezaAverage > maryAverage) {
 } else if (maryAverage > allezaAverage && maryAverage > lizAverage) {
     console.log(`Mary's team Average score Wins`);
 } else {
-    console.log(`It is a draws Liz's team, Alleza's team and Mary's team have the same average score on the last three games`);
+    console.log(`It is a draw for the first place`);
 }
+
