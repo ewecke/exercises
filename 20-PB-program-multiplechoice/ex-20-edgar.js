@@ -99,4 +99,4 @@ switch (percentageComplete) {
 }
 
 /* Q-5 - When should you use a switch statement versus an `if else` statement. Comment your answer in your js file?
-switch statement is good for simple thinks when we dont have to use mutiple variebles or multiple comparisons and or multiple conditions */
+switch statement is good for simple thinks when we dont have to use mutiple variebles or multiple comparisons and or multiple conditions  */
