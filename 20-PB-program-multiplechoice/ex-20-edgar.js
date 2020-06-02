@@ -61,38 +61,38 @@ switch (fruit) {
         console.log("Its an error case! Something went wrong");
 }
 //Q-4
-let percentageComplete = -20;
+let percentageComplete = 65;
 let transToSiwitch = 0;
 
-if (percentageComplete >= 0 && percentageComplete <= 30) {
-    percentageComplete = 1;
-} else if (percentageComplete > 30 && percentageComplete <= 50) {
-    percentageComplete = 2;
-} else if (percentageComplete >= 51 && percentageComplete <= 80) {
-    percentageComplete = 3;
-} else if (percentageComplete >= 81 && percentageComplete <= 99) {
-    percentageComplete = 4;
-} else if (percentageComplete === 100) {
-    percentageComplete = 5;
+if (percentageComplete === 100) {
+    transToSiwitch = 5;
+} else if (percentageComplete > 80) {
+    transToSiwitch = 4;
+} else if (percentageComplete > 50) {
+    transToSiwitch = 3;
+} else if (percentageComplete > 30) {
+    transToSiwitch = 2;
+} else if (percentageComplete > 0) {
+    transToSiwitch = 1;
 } else {
 
 }
 
-switch (percentageComplete) {
+switch (transToSiwitch) {
     case 1:
-        console.log(`${percentageComplete} Still a long way to go`);
+        console.log(`${percentageComplete}% Complete: Still a long way to go`);
         break;
     case 2:
-        console.log(`${percentageComplete} Slowly getting there`);
+        console.log(`${percentageComplete}% Complete: Slowly getting there`);
         break;
     case 3:
-        console.log(`${percentageComplete} You can do it!`);
+        console.log(`${percentageComplete}% Complete: You can do it!`);
         break;
     case 4:
-        console.log(`${percentageComplete} This is the last push!`);
+        console.log(`${percentageComplete}% Complete: This is the last push!`);
         break;
     case 5:
-        console.log(`${percentageComplete} You're there. Well done!`);
+        console.log(`${percentageComplete}% Complete: You're there. Well done!`);
         break;
     default:
         console.log("Its an error case! Something went wrong");
