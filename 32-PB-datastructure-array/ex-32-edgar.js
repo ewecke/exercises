@@ -9,7 +9,7 @@ console.log(myArray);
 //Q2
 console.log(`Q2`);
 
-let thirdElement = myArray[2]
+let thirdElement = myArray[2];
 console.log(thirdElement);
 
 //Q3
