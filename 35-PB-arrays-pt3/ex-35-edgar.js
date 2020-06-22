@@ -40,13 +40,13 @@ console.log(monthName(16));
 //Q3
 console.log("**3. Amplify the Multiples of 4.**");
 
-/* function amplify (number) {
+function amplify(number) {
 
 }
 
 console.log(amplify(4));
 console.log(amplify(3));
-console.log(amplify(25)); */
+console.log(amplify(25));
 
 
 
@@ -54,51 +54,49 @@ console.log(amplify(25)); */
 console.log("**4. One is not like the others...**");
 
 function unique(numbers) {
-
-    let result = 0;
-
-    for (let i = 0; i < numbers.length-1; i++) {
-            if (numbers[i] !== numbers[i+1]) {
-                result = numbers[i];
+    let result;
+    for (let i = 1; i < numbers.length - 1; i++) {
+        for (let b = 0; b < numbers.length; b++) {
+            if (numbers[i] !== numbers[b]) {
+                result = numbers[b];
             }
         }
+    }
     return result;
 }
 
 console.log(unique([3, 3, 3, 7, 3, 3]));
 console.log(unique([0, 0, 0.77, 0, 0]));
-console.log(unique([1, 1, 1, 2, 2, 3, 1, 1]));
+console.log(unique([1, 0, 0, 0, 0, 1, 8]));
+console.log(unique([1, 1, 1, 2, 2, 3, 3, 3, 0, 0, 5]));
 
-
-//Q4 Martina
-console.log("**4. One is not like the others...Martina**");
-
-function unique2(numbers2) {
-
-    let result2;
-
-    for (let i = 0; i < numbers2.length-1; i++) {
-
-        if (numbers2[i] === numbers2[i+1]) {
-            continue
-        } else {
-            result2 = numbers2[i]
-        }
-
-    }
-
-    return result2;
-}
-
-console.log(unique2([3, 3, 3, 7, 3, 3]));
-console.log(unique2([0, 0, 0.77, 0, 0]));
-console.log(unique2([1, 1, 1, 2, 2, 3, 1, 1]));
 
 //Q5
 console.log("**5. Word Ranking.**");
 
+function wordRank(str) {
+    let alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+    function alphabetScore (score) {
+        for (let i = 0; i > alphabet.length; i++);
+        score = [ ]
+    }
+}
+
+console.log(wordRank("The quick brown fox."));
+console.log(wordRank("Nancy is very pretty."));
+console.log(wordRank("Check back tomorrow, man!"));
+console.log(wordRank("Today is Wednesday."));
+
 //Q6
 console.log("**6. c4n y0u r34d th15?**");
+
+function hackerSpeak (str){
+
+}
+console.log(hackerSpeak("javascript is cool"));
+console.log(hackerSpeak("programming is fun"));
+console.log(hackerSpeak("become a coder"));
+
 
 //Q - Bonus
 console.log("## Bonus Questions");
