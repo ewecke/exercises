@@ -29,6 +29,8 @@ console.log(euroCities);
 
 //Q6
 console.log("Q6");
+euroCities.splice(1, 2); // from position (1)two, for two positions  
+console.log(euroCities);
 
 //Q7
 console.log("Q7");
@@ -62,11 +64,10 @@ console.log("Q13");
 //Bonus 1 
 function reverseString(str) {
     if (str === "")
-      return "";
+        return "";
     else
-      return reverseString(str.substring(1)) + str.charAt(0);
-  }
-  console.log(reverseString("Hello World"));
+        return reverseString(str.substring(1)) + str.charAt(0);
+}
+console.log(reverseString("Hello World"));
 
 //Extra Practice
-
