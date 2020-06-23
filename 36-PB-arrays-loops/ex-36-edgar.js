@@ -72,7 +72,7 @@ function capitalize (myArray) {
     const result = [];
 
     for (let i = 0; i < myArray.length; i++) {
-        result.push(myArray[i].charAt(0).toUpperCase() + myArray[i].slice(1));
+        result.push(myArray[i].charAt(0).toUpperCase() + myArray[i].slice(1).toLowerCase());
     }
 
     return result;
