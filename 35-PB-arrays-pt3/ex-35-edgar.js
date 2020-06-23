@@ -78,7 +78,9 @@ function wordRank(str) {
     let alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
     function alphabetScore (score) {
         for (let i = 0; i > alphabet.length; i++);
-        score = [ ]
+        score = alphabet[i+1];
+        console.log(score);
+        
     }
 }
 
