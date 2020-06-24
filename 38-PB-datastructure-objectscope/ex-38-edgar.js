@@ -25,5 +25,10 @@ const person = {
         return `${this.firstName} ${this.lastName} is a ${this.age} year old ${this.job} livin in ${this.city}`;
     }
  }
-
  console.log(person.method());
+
+ //Q3
+ console.log("Q3 - ");
+
+ console.log(Object.keys(person).length);
+ 
