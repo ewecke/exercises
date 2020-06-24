@@ -27,15 +27,15 @@ let arr = [
     [3, 10, 26, 7]
 ];
 
-function print () { 
-    for (let i = 0; i < arr.length; i++) {
-        console.log("Row", i);
-        for (let j = 0; j < arr[i].length; j++) {
-            console.log(arr[i][j]);          
+function print (array) { 
+    for (let i = 0; i < array.length; i++) {
+        console.log("row", i);
+        for (let j = 0; j < array[i].length; j++) {
+            console.log(" " + array[i][j]);          
         }
     }
 }
-print();
+print(arr);
 
 
 //Q3
