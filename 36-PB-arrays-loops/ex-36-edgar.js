@@ -83,3 +83,10 @@ console.log(capitalize(["samuel", "MARIA", "luke", "mary"]));
 console.log(capitalize(["Cynthia", "Karen", "Jane", "Carrie"]));
 console.log();
 
+//Q6
+console.log("**No Duplicates!**");
+
+
+//Q7
+console.log("**Repeat it.**");
+
