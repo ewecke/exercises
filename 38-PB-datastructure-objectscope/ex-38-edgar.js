@@ -31,4 +31,6 @@ const person = {
  console.log("Q3 - ");
 
  console.log(Object.keys(person).length);
+
+ 
  
