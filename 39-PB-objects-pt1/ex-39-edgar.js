@@ -11,6 +11,7 @@ const person = {
  }
 
 for (const myKey in person) {
+    //console.log(`${myKey} : ${person[myKey]}`);
     console.log(myKey); 
 }
 
@@ -47,3 +48,6 @@ const person2 = {
     }
 }
 console.log(person2.method());
+
+//Bonus Questions 1
+console.log("**1. Convert keys and values into an array.**");
